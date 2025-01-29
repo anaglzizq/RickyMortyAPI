@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick y Morty</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <img src="./Img/titulo.png" alt="inicio" id="inicio">
+        <div>
+            <div class="contenedor1">
+                <input type="text" id="buscador" name="search" placeholder="Busca tu personaje..." autocomplete="off" spellcheck="false">
+                <ul id="sugerencias"></ul>
+                <p id="errorMensaje" style="color: red"></p>
+            </div>
+            <button id="boton">
+                <img src="./Img/icon.png" alt="imgBtn">
+            </button>
+        </div>
+    </header>
+    <main>
+        <div id="resultados"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
